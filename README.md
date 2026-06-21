@@ -80,11 +80,16 @@ Project folder:
 Cyber security/Basic Network Scanning with Nmap
 ```
 
-### Upcoming Tasks
-
 #### Task 2: Basic Firewall Configuration with UFW
 
-A defensive security task focused on configuring firewall rules using UFW.
+A defensive security task where UFW was used on Ubuntu to allow SSH traffic, deny HTTP traffic, enable the firewall, and verify the final firewall rules.
+
+Project folder:
+
+```text
+Cyber security/Basic Firewall Configuration with UFW
+
+### Upcoming Tasks
 
 #### Task 3: Capture Network Traffic with Wireshark
 

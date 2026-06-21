@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Basic Firewall Configuration with UFW
+# Oasis Infobyte Cyber Security Internship Task
+
+# Update package list
+sudo apt update
+
+# Install UFW if it is not already installed
+sudo apt install ufw -y
+
+# Allow SSH traffic on port 22
+sudo ufw allow ssh
+
+# Deny HTTP traffic on port 80
+sudo ufw deny http
+
+# Enable the firewall
+sudo ufw enable
+
+# Show the firewall status and rules
+sudo ufw status verbose
